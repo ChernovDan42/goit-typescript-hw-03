@@ -14,7 +14,7 @@
 
 */
 
-const lol;
+
 
 class Employee {
   // Заповніть модифікатори доступу
@@ -31,7 +31,7 @@ class Employee {
 class Manager extends Employee {
   // Реалізуйте конструктор та збільшіть salary на 10000
   constructor(){
-    super(salary:1000)
+    super('Dan','Project',1000)
   }
 }
 
