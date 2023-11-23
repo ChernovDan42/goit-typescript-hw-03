@@ -30,10 +30,12 @@ class Employee {
 
 class Manager extends Employee {
   // Реалізуйте конструктор та збільшіть salary на 10000
-  constructor(){
-    super('Dan','Project',1000)
+  constructor(name:string,department:string,salary:number){
+    super(name, department, salary + 10000)
+    
   }
 }
+
 
 
 export {};
